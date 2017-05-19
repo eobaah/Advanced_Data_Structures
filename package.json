@@ -1,0 +1,29 @@
+{
+  "name": "advanced_data_structures",
+  "version": "1.0.0",
+  "description": "data structures",
+  "main": "index.js",
+  "build": "babel src -d lib",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register ./spec/*.js ./node_modules/eslint/bin/eslint.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "babel-register": "^6.18.0",
+    "chai": "~1.8.0",
+    "chai-change": "*",
+    "eslint": "^3.19.0",
+    "mocha": "2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eobaah/Advanced_Data_Structures.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eobaah/Advanced_Data_Structures/issues"
+  },
+  "homepage": "https://github.com/eobaah/Advanced_Data_Structures#readme"
+}
